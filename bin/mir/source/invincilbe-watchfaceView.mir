@@ -1,24 +1,24 @@
-[ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
+[ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
 import Toybox.Graphics;
-[ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
+[ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
 import Toybox.Lang;
-[ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Math,3,14,18]; ]
+[ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Math,3,14,18]; ]
 import Toybox.Math;
-[ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [System,4,14,20]; ]
+[ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [System,4,14,20]; ]
 import Toybox.System;
-[ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [Time,5,14,18]; ]
+[ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [Time,5,14,18]; ]
 import Toybox.Time;
-[ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc"; @line = 6; @symbol_importdef<0> = [Toybox,6,7,13]; @symbol_importdef<1> = [Time,6,14,18]; @symbol_importdef<2> = [Gregorian,6,19,28]; ]
+[ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc"; @line = 6; @symbol_importdef<0> = [Toybox,6,7,13]; @symbol_importdef<1> = [Time,6,14,18]; @symbol_importdef<2> = [Gregorian,6,19,28]; ]
 import Toybox.Time.Gregorian;
-[ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc"; @line = 7; @symbol_importdef<0> = [Toybox,7,7,13]; @symbol_importdef<1> = [Weather,7,14,21]; ]
+[ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc"; @line = 7; @symbol_importdef<0> = [Toybox,7,7,13]; @symbol_importdef<1> = [Weather,7,14,21]; ]
 import Toybox.Weather;
-[ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc"; @line = 8; @symbol_importdef<0> = [Toybox,8,7,13]; @symbol_importdef<1> = [WatchUi,8,14,21]; ]
+[ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc"; @line = 8; @symbol_importdef<0> = [Toybox,8,7,13]; @symbol_importdef<1> = [WatchUi,8,14,21]; ]
 import Toybox.WatchUi;
-[ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc"; @line = 10; @symbol_classdef = [invincilbe_watchfaceView,10,6,30]; @symbol_extends<0> = [WatchUi,10,39,46]; @symbol_extends<1> = [WatchFace,10,47,56]; ]
+[ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc"; @line = 10; @symbol_classdef = [invincilbe_watchfaceView,10,6,30]; @symbol_extends<0> = [WatchUi,10,39,46]; @symbol_extends<1> = [WatchFace,10,47,56]; ]
 class invincilbe_watchfaceView extends WatchUi.WatchFace {
-    [ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc"; @line = 10; ]
+    [ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc"; @line = 10; ]
     <init> {
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 15 8 ]
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 15 8 ]
         %tmp.1 = newa 4;
         %tmp.2 = "DROPS OF WATER\nTHAT MAKE AN OCEAN";
         %tmp.3 = dup %tmp.1;
@@ -34,38 +34,38 @@ class invincilbe_watchfaceView extends WatchUi.WatchFace {
         %tmp.13 = aputv %tmp.12 3 %tmp.11;
         putv self :quotes %tmp.13;
     }
-    [ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc"; @line = 10; ]
+    [ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc"; @line = 10; ]
     static
     <init> {
     }
-    [ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc"; @line = 12; @position = 8; @symbol_vardef = [background,12,8,18]; @symbol_type<0> = [Graphics,12,22,30]; @symbol_type<1> = [BitmapType,12,31,41]; ]
+    [ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc"; @line = 12; @position = 8; @symbol_vardef = [background,12,8,18]; @symbol_type<0> = [Graphics,12,22,30]; @symbol_type<1> = [BitmapType,12,31,41]; ]
     var background as Graphics.BitmapType or Null;
-    [ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc"; @line = 13; @position = 8; @symbol_vardef = [foreground,13,8,18]; @symbol_type<0> = [Graphics,13,22,30]; @symbol_type<1> = [BitmapType,13,31,41]; ]
+    [ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc"; @line = 13; @position = 8; @symbol_vardef = [foreground,13,8,18]; @symbol_type<0> = [Graphics,13,22,30]; @symbol_type<1> = [BitmapType,13,31,41]; ]
     var foreground as Graphics.BitmapType or Null;
-    [ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc"; @line = 15; @position = 8; @symbol_vardef = [quotes,15,8,14]; @symbol_type<0> = [Array,15,18,23]; @symbol_type<1> = [String,15,24,30]; ]
+    [ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc"; @line = 15; @position = 8; @symbol_vardef = [quotes,15,8,14]; @symbol_type<0> = [Array,15,18,23]; @symbol_type<1> = [String,15,24,30]; ]
     var quotes as Array<String>;
-    [ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc"; @line = 21; @position = 8; @symbol_vardef = [currentQuote,21,8,20]; @symbol_type<0> = [String,21,24,30]; ]
+    [ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc"; @line = 21; @position = 8; @symbol_vardef = [currentQuote,21,8,20]; @symbol_type<0> = [String,21,24,30]; ]
     var currentQuote as String = "";
-    [ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc"; @line = 23; @symbol_functiondef = [initialize,23,13,23]; ]
+    [ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc"; @line = 23; @symbol_functiondef = [initialize,23,13,23]; ]
     function initialize() as Void {
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_23_26_26_4_start:
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 24 8 ]
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_23_26_26_4_start:
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 24 8 ]
         symbol [ WatchFace %tmp.2 24 8 17 ];
         %tmp.2 = getv ? :WatchFace;
         symbol [ initialize %tmp.3 24 18 28 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 25 8 ]
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 25 8 ]
         %tmp.4 = self;
         symbol [ pickRandomQuote %tmp.5 25 8 23 ];
         %tmp.5 = getv function %tmp.4 :pickRandomQuote;
         invoke %tmp.4 %tmp.5();
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_23_26_26_4_stop:
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_23_26_26_4_stop:
     }
-    [ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc"; @line = 28; @symbol_functiondef = [pickRandomQuote,28,13,28]; ]
+    [ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc"; @line = 28; @symbol_functiondef = [pickRandomQuote,28,13,28]; ]
     function pickRandomQuote() as Void {
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_28_39_30_4_start:
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 29 8 ]
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_28_39_30_4_start:
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 29 8 ]
         symbol [ quotes %tmp.2 29 23 29 ];
         %tmp.2 = getv ? :quotes;
         symbol [ Math %tmp.3 29 30 34 ];
@@ -82,18 +82,18 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.11 = agetv %tmp.2 %tmp.10;
         symbol [ currentQuote ? 29 8 20 ];
         putv self :currentQuote %tmp.11;
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_28_39_30_4_stop:
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_28_39_30_4_stop:
     }
-    [ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc"; @line = 32; @symbol_functiondef = [conditionToString,32,13,30]; @symbol_param<0> = [condition,32,31,40]; @symbol_param<0>_type<0> = [Number,32,44,50]; @symbol_return<0> = [String,32,56,62]; ]
+    [ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc"; @line = 32; @symbol_functiondef = [conditionToString,32,13,30]; @symbol_param<0> = [condition,32,31,40]; @symbol_param<0>_type<0> = [Number,32,44,50]; @symbol_return<0> = [String,32,56,62]; ]
     function conditionToString(condition as Number or Null) as String {
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_32_63_77_4_start:
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 33 8 ]
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_32_63_77_4_start:
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 33 8 ]
         %tmp.1 = lgetv %condition;
         symbol [ condition %tmp.1 33 16 25 ];
         push %tmp.1;
-        switch %tmp.1 @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_33_8_76_8_switchStmtEnd;
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_33_8_76_8_switchStmtBegin:
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 34 12 ]
+        switch %tmp.1 @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_33_8_76_8_switchStmtEnd;
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_33_8_76_8_switchStmtBegin:
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 34 12 ]
         %tmp.2 = dup %tmp.1;
         symbol [ Weather %tmp.3 34 17 24 ];
         %tmp.3 = getm $.Toybox.Weather;
@@ -101,8 +101,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.4 = getv %tmp.3 :CONDITION_CLEAR;
         %tmp.5 = getv function %tmp.2 :equals;
         %tmp.6 = invoke %tmp.2 %tmp.5 (%tmp.4);
-        bt %tmp.6 @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_34_12_35_30_switchCase;
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 36 12 ]
+        bt %tmp.6 @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_34_12_35_30_switchCase;
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 36 12 ]
         %tmp.7 = dup %tmp.1;
         symbol [ Weather %tmp.8 36 17 24 ];
         %tmp.8 = getm $.Toybox.Weather;
@@ -110,8 +110,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.9 = getv %tmp.8 :CONDITION_MOSTLY_CLEAR;
         %tmp.10 = getv function %tmp.7 :equals;
         %tmp.11 = invoke %tmp.7 %tmp.10 (%tmp.9);
-        bt %tmp.11 @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_36_12_36_47_switchCase;
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 37 12 ]
+        bt %tmp.11 @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_36_12_36_47_switchCase;
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 37 12 ]
         %tmp.12 = dup %tmp.1;
         symbol [ Weather %tmp.13 37 17 24 ];
         %tmp.13 = getm $.Toybox.Weather;
@@ -119,8 +119,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.14 = getv %tmp.13 :CONDITION_FAIR;
         %tmp.15 = getv function %tmp.12 :equals;
         %tmp.16 = invoke %tmp.12 %tmp.15 (%tmp.14);
-        bt %tmp.16 @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_37_12_38_37_switchCase;
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 39 12 ]
+        bt %tmp.16 @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_37_12_38_37_switchCase;
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 39 12 ]
         %tmp.17 = dup %tmp.1;
         symbol [ Weather %tmp.18 39 17 24 ];
         %tmp.18 = getm $.Toybox.Weather;
@@ -128,8 +128,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.19 = getv %tmp.18 :CONDITION_PARTLY_CLOUDY;
         %tmp.20 = getv function %tmp.17 :equals;
         %tmp.21 = invoke %tmp.17 %tmp.20 (%tmp.19);
-        bt %tmp.21 @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_39_12_39_48_switchCase;
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 40 12 ]
+        bt %tmp.21 @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_39_12_39_48_switchCase;
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 40 12 ]
         %tmp.22 = dup %tmp.1;
         symbol [ Weather %tmp.23 40 17 24 ];
         %tmp.23 = getm $.Toybox.Weather;
@@ -137,8 +137,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.24 = getv %tmp.23 :CONDITION_PARTLY_CLEAR;
         %tmp.25 = getv function %tmp.22 :equals;
         %tmp.26 = invoke %tmp.22 %tmp.25 (%tmp.24);
-        bt %tmp.26 @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_40_12_41_38_switchCase;
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 42 12 ]
+        bt %tmp.26 @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_40_12_41_38_switchCase;
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 42 12 ]
         %tmp.27 = dup %tmp.1;
         symbol [ Weather %tmp.28 42 17 24 ];
         %tmp.28 = getm $.Toybox.Weather;
@@ -146,8 +146,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.29 = getv %tmp.28 :CONDITION_MOSTLY_CLOUDY;
         %tmp.30 = getv function %tmp.27 :equals;
         %tmp.31 = invoke %tmp.27 %tmp.30 (%tmp.29);
-        bt %tmp.31 @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_42_12_42_48_switchCase;
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 43 12 ]
+        bt %tmp.31 @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_42_12_42_48_switchCase;
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 43 12 ]
         %tmp.32 = dup %tmp.1;
         symbol [ Weather %tmp.33 43 17 24 ];
         %tmp.33 = getm $.Toybox.Weather;
@@ -155,8 +155,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.34 = getv %tmp.33 :CONDITION_THIN_CLOUDS;
         %tmp.35 = getv function %tmp.32 :equals;
         %tmp.36 = invoke %tmp.32 %tmp.35 (%tmp.34);
-        bt %tmp.36 @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_43_12_44_38_switchCase;
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 45 12 ]
+        bt %tmp.36 @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_43_12_44_38_switchCase;
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 45 12 ]
         %tmp.37 = dup %tmp.1;
         symbol [ Weather %tmp.38 45 17 24 ];
         %tmp.38 = getm $.Toybox.Weather;
@@ -164,8 +164,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.39 = getv %tmp.38 :CONDITION_CLOUDY;
         %tmp.40 = getv function %tmp.37 :equals;
         %tmp.41 = invoke %tmp.37 %tmp.40 (%tmp.39);
-        bt %tmp.41 @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_45_12_46_31_switchCase;
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 47 12 ]
+        bt %tmp.41 @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_45_12_46_31_switchCase;
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 47 12 ]
         %tmp.42 = dup %tmp.1;
         symbol [ Weather %tmp.43 47 17 24 ];
         %tmp.43 = getm $.Toybox.Weather;
@@ -173,8 +173,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.44 = getv %tmp.43 :CONDITION_RAIN;
         %tmp.45 = getv function %tmp.42 :equals;
         %tmp.46 = invoke %tmp.42 %tmp.45 (%tmp.44);
-        bt %tmp.46 @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_47_12_47_39_switchCase;
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 48 12 ]
+        bt %tmp.46 @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_47_12_47_39_switchCase;
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 48 12 ]
         %tmp.47 = dup %tmp.1;
         symbol [ Weather %tmp.48 48 17 24 ];
         %tmp.48 = getm $.Toybox.Weather;
@@ -182,8 +182,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.49 = getv %tmp.48 :CONDITION_SHOWERS;
         %tmp.50 = getv function %tmp.47 :equals;
         %tmp.51 = invoke %tmp.47 %tmp.50 (%tmp.49);
-        bt %tmp.51 @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_48_12_49_30_switchCase;
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 50 12 ]
+        bt %tmp.51 @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_48_12_49_30_switchCase;
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 50 12 ]
         %tmp.52 = dup %tmp.1;
         symbol [ Weather %tmp.53 50 17 24 ];
         %tmp.53 = getm $.Toybox.Weather;
@@ -191,8 +191,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.54 = getv %tmp.53 :CONDITION_LIGHT_RAIN;
         %tmp.55 = getv function %tmp.52 :equals;
         %tmp.56 = invoke %tmp.52 %tmp.55 (%tmp.54);
-        bt %tmp.56 @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_50_12_50_45_switchCase;
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 51 12 ]
+        bt %tmp.56 @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_50_12_50_45_switchCase;
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 51 12 ]
         %tmp.57 = dup %tmp.1;
         symbol [ Weather %tmp.58 51 17 24 ];
         %tmp.58 = getm $.Toybox.Weather;
@@ -200,8 +200,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.59 = getv %tmp.58 :CONDITION_LIGHT_SHOWERS;
         %tmp.60 = getv function %tmp.57 :equals;
         %tmp.61 = invoke %tmp.57 %tmp.60 (%tmp.59);
-        bt %tmp.61 @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_51_12_51_48_switchCase;
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 52 12 ]
+        bt %tmp.61 @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_51_12_51_48_switchCase;
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 52 12 ]
         %tmp.62 = dup %tmp.1;
         symbol [ Weather %tmp.63 52 17 24 ];
         %tmp.63 = getm $.Toybox.Weather;
@@ -209,8 +209,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.64 = getv %tmp.63 :CONDITION_DRIZZLE;
         %tmp.65 = getv function %tmp.62 :equals;
         %tmp.66 = invoke %tmp.62 %tmp.65 (%tmp.64);
-        bt %tmp.66 @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_52_12_53_35_switchCase;
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 54 12 ]
+        bt %tmp.66 @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_52_12_53_35_switchCase;
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 54 12 ]
         %tmp.67 = dup %tmp.1;
         symbol [ Weather %tmp.68 54 17 24 ];
         %tmp.68 = getm $.Toybox.Weather;
@@ -218,8 +218,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.69 = getv %tmp.68 :CONDITION_HEAVY_RAIN;
         %tmp.70 = getv function %tmp.67 :equals;
         %tmp.71 = invoke %tmp.67 %tmp.70 (%tmp.69);
-        bt %tmp.71 @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_54_12_54_45_switchCase;
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 55 12 ]
+        bt %tmp.71 @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_54_12_54_45_switchCase;
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 55 12 ]
         %tmp.72 = dup %tmp.1;
         symbol [ Weather %tmp.73 55 17 24 ];
         %tmp.73 = getm $.Toybox.Weather;
@@ -227,8 +227,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.74 = getv %tmp.73 :CONDITION_HEAVY_SHOWERS;
         %tmp.75 = getv function %tmp.72 :equals;
         %tmp.76 = invoke %tmp.72 %tmp.75 (%tmp.74);
-        bt %tmp.76 @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_55_12_56_35_switchCase;
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 57 12 ]
+        bt %tmp.76 @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_55_12_56_35_switchCase;
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 57 12 ]
         %tmp.77 = dup %tmp.1;
         symbol [ Weather %tmp.78 57 17 24 ];
         %tmp.78 = getm $.Toybox.Weather;
@@ -236,8 +236,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.79 = getv %tmp.78 :CONDITION_SNOW;
         %tmp.80 = getv function %tmp.77 :equals;
         %tmp.81 = invoke %tmp.77 %tmp.80 (%tmp.79);
-        bt %tmp.81 @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_57_12_58_30_switchCase;
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 59 12 ]
+        bt %tmp.81 @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_57_12_58_30_switchCase;
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 59 12 ]
         %tmp.82 = dup %tmp.1;
         symbol [ Weather %tmp.83 59 17 24 ];
         %tmp.83 = getm $.Toybox.Weather;
@@ -245,8 +245,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.84 = getv %tmp.83 :CONDITION_LIGHT_SNOW;
         %tmp.85 = getv function %tmp.82 :equals;
         %tmp.86 = invoke %tmp.82 %tmp.85 (%tmp.84);
-        bt %tmp.86 @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_59_12_60_35_switchCase;
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 61 12 ]
+        bt %tmp.86 @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_59_12_60_35_switchCase;
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 61 12 ]
         %tmp.87 = dup %tmp.1;
         symbol [ Weather %tmp.88 61 17 24 ];
         %tmp.88 = getm $.Toybox.Weather;
@@ -254,8 +254,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.89 = getv %tmp.88 :CONDITION_HEAVY_SNOW;
         %tmp.90 = getv function %tmp.87 :equals;
         %tmp.91 = invoke %tmp.87 %tmp.90 (%tmp.89);
-        bt %tmp.91 @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_61_12_62_35_switchCase;
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 63 12 ]
+        bt %tmp.91 @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_61_12_62_35_switchCase;
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 63 12 ]
         %tmp.92 = dup %tmp.1;
         symbol [ Weather %tmp.93 63 17 24 ];
         %tmp.93 = getm $.Toybox.Weather;
@@ -263,8 +263,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.94 = getv %tmp.93 :CONDITION_WINDY;
         %tmp.95 = getv function %tmp.92 :equals;
         %tmp.96 = invoke %tmp.92 %tmp.95 (%tmp.94);
-        bt %tmp.96 @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_63_12_64_30_switchCase;
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 65 12 ]
+        bt %tmp.96 @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_63_12_64_30_switchCase;
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 65 12 ]
         %tmp.97 = dup %tmp.1;
         symbol [ Weather %tmp.98 65 17 24 ];
         %tmp.98 = getm $.Toybox.Weather;
@@ -272,8 +272,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.99 = getv %tmp.98 :CONDITION_FOG;
         %tmp.100 = getv function %tmp.97 :equals;
         %tmp.101 = invoke %tmp.97 %tmp.100 (%tmp.99);
-        bt %tmp.101 @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_65_12_65_38_switchCase;
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 66 12 ]
+        bt %tmp.101 @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_65_12_65_38_switchCase;
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 66 12 ]
         %tmp.102 = dup %tmp.1;
         symbol [ Weather %tmp.103 66 17 24 ];
         %tmp.103 = getm $.Toybox.Weather;
@@ -281,8 +281,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.104 = getv %tmp.103 :CONDITION_MIST;
         %tmp.105 = getv function %tmp.102 :equals;
         %tmp.106 = invoke %tmp.102 %tmp.105 (%tmp.104);
-        bt %tmp.106 @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_66_12_66_39_switchCase;
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 67 12 ]
+        bt %tmp.106 @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_66_12_66_39_switchCase;
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 67 12 ]
         %tmp.107 = dup %tmp.1;
         symbol [ Weather %tmp.108 67 17 24 ];
         %tmp.108 = getm $.Toybox.Weather;
@@ -290,8 +290,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.109 = getv %tmp.108 :CONDITION_HAZY;
         %tmp.110 = getv function %tmp.107 :equals;
         %tmp.111 = invoke %tmp.107 %tmp.110 (%tmp.109);
-        bt %tmp.111 @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_67_12_67_39_switchCase;
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 68 12 ]
+        bt %tmp.111 @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_67_12_67_39_switchCase;
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 68 12 ]
         %tmp.112 = dup %tmp.1;
         symbol [ Weather %tmp.113 68 17 24 ];
         %tmp.113 = getm $.Toybox.Weather;
@@ -299,8 +299,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.114 = getv %tmp.113 :CONDITION_HAZE;
         %tmp.115 = getv function %tmp.112 :equals;
         %tmp.116 = invoke %tmp.112 %tmp.115 (%tmp.114);
-        bt %tmp.116 @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_68_12_69_30_switchCase;
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 70 12 ]
+        bt %tmp.116 @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_68_12_69_30_switchCase;
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 70 12 ]
         %tmp.117 = dup %tmp.1;
         symbol [ Weather %tmp.118 70 17 24 ];
         %tmp.118 = getm $.Toybox.Weather;
@@ -308,8 +308,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.119 = getv %tmp.118 :CONDITION_THUNDERSTORMS;
         %tmp.120 = getv function %tmp.117 :equals;
         %tmp.121 = invoke %tmp.117 %tmp.120 (%tmp.119);
-        bt %tmp.121 @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_70_12_70_48_switchCase;
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 71 12 ]
+        bt %tmp.121 @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_70_12_70_48_switchCase;
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 71 12 ]
         %tmp.122 = dup %tmp.1;
         symbol [ Weather %tmp.123 71 17 24 ];
         %tmp.123 = getm $.Toybox.Weather;
@@ -317,8 +317,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.124 = getv %tmp.123 :CONDITION_SCATTERED_THUNDERSTORMS;
         %tmp.125 = getv function %tmp.122 :equals;
         %tmp.126 = invoke %tmp.122 %tmp.125 (%tmp.124);
-        bt %tmp.126 @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_71_12_71_58_switchCase;
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 72 12 ]
+        bt %tmp.126 @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_71_12_71_58_switchCase;
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 72 12 ]
         %tmp.127 = dup %tmp.1;
         symbol [ Weather %tmp.128 72 17 24 ];
         %tmp.128 = getm $.Toybox.Weather;
@@ -326,91 +326,91 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.129 = getv %tmp.128 :CONDITION_CHANCE_OF_THUNDERSTORMS;
         %tmp.130 = getv function %tmp.127 :equals;
         %tmp.131 = invoke %tmp.127 %tmp.130 (%tmp.129);
-        bt %tmp.131 @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_72_12_73_31_switchCase;
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 74 12 ]
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_33_8_76_8_switchStmtDefault:
-        goto @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_33_8_76_8_defaultCodeBegin;
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_34_12_35_30_switchCase:
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 35 16 ]
+        bt %tmp.131 @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_72_12_73_31_switchCase;
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 74 12 ]
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_33_8_76_8_switchStmtDefault:
+        goto @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_33_8_76_8_defaultCodeBegin;
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_34_12_35_30_switchCase:
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 35 16 ]
         %tmp.132 = "SUNNY";
         ret %tmp.132;
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_36_12_36_47_switchCase:
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_37_12_38_37_switchCase:
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 38 16 ]
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_36_12_36_47_switchCase:
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_37_12_38_37_switchCase:
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 38 16 ]
         %tmp.133 = "MOSTLY SUNNY";
         ret %tmp.133;
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_39_12_39_48_switchCase:
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_40_12_41_38_switchCase:
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 41 16 ]
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_39_12_39_48_switchCase:
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_40_12_41_38_switchCase:
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 41 16 ]
         %tmp.134 = "PARTLY CLOUDY";
         ret %tmp.134;
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_42_12_42_48_switchCase:
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_43_12_44_38_switchCase:
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 44 16 ]
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_42_12_42_48_switchCase:
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_43_12_44_38_switchCase:
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 44 16 ]
         %tmp.135 = "MOSTLY CLOUDY";
         ret %tmp.135;
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_45_12_46_31_switchCase:
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 46 16 ]
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_45_12_46_31_switchCase:
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 46 16 ]
         %tmp.136 = "CLOUDY";
         ret %tmp.136;
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_47_12_47_39_switchCase:
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_48_12_49_30_switchCase:
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 49 16 ]
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_47_12_47_39_switchCase:
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_48_12_49_30_switchCase:
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 49 16 ]
         %tmp.137 = "RAINY";
         ret %tmp.137;
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_50_12_50_45_switchCase:
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_51_12_51_48_switchCase:
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_52_12_53_35_switchCase:
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 53 16 ]
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_50_12_50_45_switchCase:
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_51_12_51_48_switchCase:
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_52_12_53_35_switchCase:
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 53 16 ]
         %tmp.138 = "LIGHT RAIN";
         ret %tmp.138;
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_54_12_54_45_switchCase:
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_55_12_56_35_switchCase:
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 56 16 ]
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_54_12_54_45_switchCase:
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_55_12_56_35_switchCase:
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 56 16 ]
         %tmp.139 = "HEAVY RAIN";
         ret %tmp.139;
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_57_12_58_30_switchCase:
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 58 16 ]
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_57_12_58_30_switchCase:
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 58 16 ]
         %tmp.140 = "SNOWY";
         ret %tmp.140;
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_59_12_60_35_switchCase:
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 60 16 ]
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_59_12_60_35_switchCase:
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 60 16 ]
         %tmp.141 = "LIGHT SNOW";
         ret %tmp.141;
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_61_12_62_35_switchCase:
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 62 16 ]
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_61_12_62_35_switchCase:
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 62 16 ]
         %tmp.142 = "HEAVY SNOW";
         ret %tmp.142;
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_63_12_64_30_switchCase:
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 64 16 ]
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_63_12_64_30_switchCase:
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 64 16 ]
         %tmp.143 = "WINDY";
         ret %tmp.143;
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_65_12_65_38_switchCase:
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_66_12_66_39_switchCase:
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_67_12_67_39_switchCase:
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_68_12_69_30_switchCase:
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 69 16 ]
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_65_12_65_38_switchCase:
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_66_12_66_39_switchCase:
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_67_12_67_39_switchCase:
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_68_12_69_30_switchCase:
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 69 16 ]
         %tmp.144 = "FOGGY";
         ret %tmp.144;
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_70_12_70_48_switchCase:
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_71_12_71_58_switchCase:
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_72_12_73_31_switchCase:
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 73 16 ]
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_70_12_70_48_switchCase:
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_71_12_71_58_switchCase:
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_72_12_73_31_switchCase:
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 73 16 ]
         %tmp.145 = "STORMY";
         ret %tmp.145;
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_74_12_75_32_switchCase:
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_33_8_76_8_defaultCodeBegin:
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 75 16 ]
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_74_12_75_32_switchCase:
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_33_8_76_8_defaultCodeBegin:
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 75 16 ]
         %tmp.146 = "UNKNOWN";
         ret %tmp.146;
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_33_8_76_8_switchStmtEnd:
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_33_8_76_8_switchStmtEnd:
         pop;
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_32_63_77_4_stop:
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_32_63_77_4_stop:
     }
-    [ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc"; @line = 80; @symbol_functiondef = [onLayout,80,13,21]; @symbol_param<0> = [dc,80,22,24]; @symbol_param<0>_type<0> = [Dc,80,28,30]; ]
+    [ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc"; @line = 80; @symbol_functiondef = [onLayout,80,13,21]; @symbol_param<0> = [dc,80,22,24]; @symbol_param<0>_type<0> = [Dc,80,28,30]; ]
     function onLayout(dc as Dc) as Void {
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_80_40_92_4_start:
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 81 8 ]
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_80_40_92_4_start:
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 81 8 ]
         %tmp.1 = self;
         symbol [ setLayout %tmp.2 81 8 17 ];
         %tmp.2 = getv function %tmp.1 :setLayout;
@@ -424,8 +424,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         symbol [ dc %tmp.7 81 40 42 ];
         %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
         invoke %tmp.1 %tmp.2(%tmp.8);
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 82 8 ]
-        [ "_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_80_40_92_4_start" "_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_80_40_92_4_stop" ]
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 82 8 ]
+        [ "_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_80_40_92_4_start" "_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_80_40_92_4_stop" ]
         %timeLabel.1 = local;
         symbol [ timeLabel %timeLabel.1 82 12 21 ];
         symbol [ View %tmp.10 82 24 28 ];
@@ -438,7 +438,7 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         symbol [ Text %tmp.14 82 62 66 ];
         lputv %timeLabel.1 %tmp.14;
         symbol [ timeLabel %timeLabel.1 82 12 21 ];
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 83 8 ]
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 83 8 ]
         %tmp.15 = lgetv %timeLabel.1;
         symbol [ timeLabel %tmp.15 83 8 17 ];
         symbol [ setFont %tmp.16 83 18 25 ];
@@ -458,8 +458,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         symbol [ Graphics %tmp.24 83 74 82 ];
         symbol [ FontType %tmp.24 83 83 91 ];
         invoke %tmp.15 %tmp.16(%tmp.24);
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 84 8 ]
-        [ "_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_80_40_92_4_start" "_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_80_40_92_4_stop" ]
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 84 8 ]
+        [ "_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_80_40_92_4_start" "_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_80_40_92_4_stop" ]
         %batteryLabel.2 = local;
         symbol [ batteryLabel %batteryLabel.2 84 12 24 ];
         symbol [ View %tmp.26 84 27 31 ];
@@ -472,7 +472,7 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         symbol [ Text %tmp.30 84 68 72 ];
         lputv %batteryLabel.2 %tmp.30;
         symbol [ batteryLabel %batteryLabel.2 84 12 24 ];
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 85 8 ]
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 85 8 ]
         %tmp.31 = lgetv %batteryLabel.2;
         symbol [ batteryLabel %tmp.31 85 8 20 ];
         symbol [ setFont %tmp.32 85 21 28 ];
@@ -492,8 +492,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         symbol [ Graphics %tmp.40 85 82 90 ];
         symbol [ FontType %tmp.40 85 91 99 ];
         invoke %tmp.31 %tmp.32(%tmp.40);
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 86 8 ]
-        [ "_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_80_40_92_4_start" "_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_80_40_92_4_stop" ]
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 86 8 ]
+        [ "_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_80_40_92_4_start" "_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_80_40_92_4_stop" ]
         %dayLabel.3 = local;
         symbol [ dayLabel %dayLabel.3 86 12 20 ];
         symbol [ View %tmp.42 86 23 27 ];
@@ -506,7 +506,7 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         symbol [ Text %tmp.46 86 60 64 ];
         lputv %dayLabel.3 %tmp.46;
         symbol [ dayLabel %dayLabel.3 86 12 20 ];
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 87 8 ]
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 87 8 ]
         %tmp.47 = lgetv %dayLabel.3;
         symbol [ dayLabel %tmp.47 87 8 16 ];
         symbol [ setFont %tmp.48 87 17 24 ];
@@ -526,8 +526,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         symbol [ Graphics %tmp.56 87 78 86 ];
         symbol [ FontType %tmp.56 87 87 95 ];
         invoke %tmp.47 %tmp.48(%tmp.56);
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 88 8 ]
-        [ "_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_80_40_92_4_start" "_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_80_40_92_4_stop" ]
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 88 8 ]
+        [ "_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_80_40_92_4_start" "_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_80_40_92_4_stop" ]
         %quoteLabel.4 = local;
         symbol [ quoteLabel %quoteLabel.4 88 12 22 ];
         symbol [ View %tmp.58 88 25 29 ];
@@ -540,7 +540,7 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         symbol [ Text %tmp.62 88 64 68 ];
         lputv %quoteLabel.4 %tmp.62;
         symbol [ quoteLabel %quoteLabel.4 88 12 22 ];
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 89 8 ]
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 89 8 ]
         %tmp.63 = lgetv %quoteLabel.4;
         symbol [ quoteLabel %tmp.63 89 8 18 ];
         symbol [ setFont %tmp.64 89 19 26 ];
@@ -560,7 +560,7 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         symbol [ Graphics %tmp.72 89 80 88 ];
         symbol [ FontType %tmp.72 89 89 97 ];
         invoke %tmp.63 %tmp.64(%tmp.72);
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 90 8 ]
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 90 8 ]
         symbol [ WatchUi %tmp.73 90 21 28 ];
         %tmp.73 = getm $.Toybox.WatchUi;
         symbol [ loadResource %tmp.74 90 29 41 ];
@@ -577,7 +577,7 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         symbol [ BitmapType %tmp.80 90 80 90 ];
         symbol [ background ? 90 8 18 ];
         putv self :background %tmp.80;
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 91 8 ]
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 91 8 ]
         symbol [ WatchUi %tmp.81 91 21 28 ];
         %tmp.81 = getm $.Toybox.WatchUi;
         symbol [ loadResource %tmp.82 91 29 41 ];
@@ -594,15 +594,15 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         symbol [ BitmapType %tmp.88 91 80 90 ];
         symbol [ foreground ? 91 8 18 ];
         putv self :foreground %tmp.88;
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_80_40_92_4_stop:
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_80_40_92_4_stop:
     }
-    [ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc"; @line = 97; @symbol_functiondef = [onShow,97,13,19]; ]
+    [ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc"; @line = 97; @symbol_functiondef = [onShow,97,13,19]; ]
     function onShow() as Void {
     }
-    [ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc"; @line = 101; @symbol_functiondef = [onUpdate,101,13,21]; @symbol_param<0> = [dc,101,22,24]; @symbol_param<0>_type<0> = [Dc,101,28,30]; ]
+    [ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc"; @line = 101; @symbol_functiondef = [onUpdate,101,13,21]; @symbol_param<0> = [dc,101,22,24]; @symbol_param<0>_type<0> = [Dc,101,28,30]; ]
     function onUpdate(dc as Dc) as Void {
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_start:
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 102 8 ]
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_start:
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 102 8 ]
         %tmp.1 = lgetv %dc;
         symbol [ dc %tmp.1 102 8 10 ];
         symbol [ setColor %tmp.2 102 11 19 ];
@@ -616,13 +616,13 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         symbol [ COLOR_BLACK %tmp.6 102 57 68 ];
         %tmp.6 = getv %tmp.5 :COLOR_BLACK;
         invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 103 8 ]
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 103 8 ]
         %tmp.7 = lgetv %dc;
         symbol [ dc %tmp.7 103 8 10 ];
         symbol [ clear %tmp.8 103 11 16 ];
         %tmp.8 = getv function %tmp.7 :clear;
         invoke %tmp.7 %tmp.8();
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 104 8 ]
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 104 8 ]
         %tmp.9 = lgetv %dc;
         symbol [ dc %tmp.9 104 8 10 ];
         symbol [ drawBitmap %tmp.10 104 11 21 ];
@@ -632,8 +632,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         symbol [ background %tmp.14 104 28 38 ];
         %tmp.14 = getv ? :background;
         invoke %tmp.9 %tmp.10(%tmp.11, %tmp.12, %tmp.14);
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 107 8 ]
-        [ "_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_start" "_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_stop" ]
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 107 8 ]
+        [ "_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_start" "_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_stop" ]
         %clockTime.1 = local;
         symbol [ clockTime %clockTime.1 107 12 21 ];
         symbol [ System %tmp.15 107 24 30 ];
@@ -643,8 +643,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.17 = invoke %tmp.15 %tmp.16();
         lputv %clockTime.1 %tmp.17;
         symbol [ clockTime %clockTime.1 107 12 21 ];
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 108 8 ]
-        [ "_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_start" "_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_stop" ]
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 108 8 ]
+        [ "_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_start" "_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_stop" ]
         %timeString.2 = local;
         symbol [ timeString %timeString.2 108 12 22 ];
         symbol [ Lang %tmp.18 108 25 29 ];
@@ -676,8 +676,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.36 = invoke %tmp.18 %tmp.19(%tmp.20, %tmp.35);
         lputv %timeString.2 %tmp.36;
         symbol [ timeString %timeString.2 108 12 22 ];
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 109 8 ]
-        [ "_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_start" "_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_stop" ]
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 109 8 ]
+        [ "_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_start" "_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_stop" ]
         %view.3 = local;
         symbol [ view %view.3 109 12 16 ];
         symbol [ View %tmp.38 109 19 23 ];
@@ -690,7 +690,7 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         symbol [ Text %tmp.42 109 57 61 ];
         lputv %view.3 %tmp.42;
         symbol [ view %view.3 109 12 16 ];
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 110 8 ]
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 110 8 ]
         %tmp.43 = lgetv %view.3;
         symbol [ view %tmp.43 110 8 12 ];
         symbol [ setText %tmp.44 110 13 20 ];
@@ -698,7 +698,7 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.45 = lgetv %timeString.2;
         symbol [ timeString %tmp.45 110 21 31 ];
         invoke %tmp.43 %tmp.44(%tmp.45);
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 115 8 ]
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 115 8 ]
         %tmp.46 = lgetv %view.3;
         symbol [ view %tmp.46 115 8 12 ];
         symbol [ draw %tmp.47 115 13 17 ];
@@ -706,7 +706,7 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.48 = lgetv %dc;
         symbol [ dc %tmp.48 115 18 20 ];
         invoke %tmp.46 %tmp.47(%tmp.48);
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 117 8 ]
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 117 8 ]
         %tmp.49 = lgetv %dc;
         symbol [ dc %tmp.49 117 8 10 ];
         symbol [ setBlendMode %tmp.50 117 11 23 ];
@@ -716,7 +716,7 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         symbol [ BLEND_MODE_MULTIPLY %tmp.52 117 33 52 ];
         %tmp.52 = getv %tmp.51 :BLEND_MODE_MULTIPLY;
         invoke %tmp.49 %tmp.50(%tmp.52);
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 118 8 ]
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 118 8 ]
         %tmp.53 = lgetv %dc;
         symbol [ dc %tmp.53 118 8 10 ];
         symbol [ drawBitmap %tmp.54 118 11 21 ];
@@ -726,7 +726,7 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         symbol [ foreground %tmp.58 118 28 38 ];
         %tmp.58 = getv ? :foreground;
         invoke %tmp.53 %tmp.54(%tmp.55, %tmp.56, %tmp.58);
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 119 8 ]
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 119 8 ]
         %tmp.59 = lgetv %dc;
         symbol [ dc %tmp.59 119 8 10 ];
         symbol [ setBlendMode %tmp.60 119 11 23 ];
@@ -736,8 +736,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         symbol [ BLEND_MODE_DEFAULT %tmp.62 119 33 51 ];
         %tmp.62 = getv %tmp.61 :BLEND_MODE_DEFAULT;
         invoke %tmp.59 %tmp.60(%tmp.62);
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 122 8 ]
-        [ "_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_start" "_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_stop" ]
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 122 8 ]
+        [ "_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_start" "_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_stop" ]
         %battery.4 = local;
         symbol [ battery %battery.4 122 12 19 ];
         symbol [ System %tmp.63 122 22 28 ];
@@ -749,8 +749,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.66 = getv %tmp.65 :battery;
         lputv %battery.4 %tmp.66;
         symbol [ battery %battery.4 122 12 19 ];
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 123 8 ]
-        [ "_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_start" "_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_stop" ]
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 123 8 ]
+        [ "_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_start" "_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_stop" ]
         %batteryLabel.5 = local;
         symbol [ batteryLabel %batteryLabel.5 123 12 24 ];
         symbol [ View %tmp.68 123 27 31 ];
@@ -763,7 +763,7 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         symbol [ Text %tmp.72 123 68 72 ];
         lputv %batteryLabel.5 %tmp.72;
         symbol [ batteryLabel %batteryLabel.5 123 12 24 ];
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 124 8 ]
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 124 8 ]
         %tmp.73 = lgetv %batteryLabel.5;
         symbol [ batteryLabel %tmp.73 124 8 20 ];
         symbol [ setText %tmp.74 124 21 28 ];
@@ -779,7 +779,7 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.81 = "%";
         %tmp.82 = add %tmp.80 %tmp.81;
         invoke %tmp.73 %tmp.74(%tmp.82);
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 125 8 ]
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 125 8 ]
         %tmp.83 = lgetv %batteryLabel.5;
         symbol [ batteryLabel %tmp.83 125 8 20 ];
         symbol [ draw %tmp.84 125 21 25 ];
@@ -787,8 +787,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.85 = lgetv %dc;
         symbol [ dc %tmp.85 125 26 28 ];
         invoke %tmp.83 %tmp.84(%tmp.85);
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 128 8 ]
-        [ "_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_start" "_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_stop" ]
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 128 8 ]
+        [ "_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_start" "_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_stop" ]
         %today.6 = local;
         symbol [ today %today.6 128 12 17 ];
         symbol [ Gregorian %tmp.86 128 20 29 ];
@@ -807,8 +807,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.93 = invoke %tmp.86 %tmp.87(%tmp.90, %tmp.92);
         lputv %today.6 %tmp.93;
         symbol [ today %today.6 128 12 17 ];
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 129 8 ]
-        [ "_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_start" "_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_stop" ]
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 129 8 ]
+        [ "_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_start" "_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_stop" ]
         %dayNames.7 = local;
         symbol [ dayNames %dayNames.7 129 12 20 ];
         %tmp.94 = newa 7;
@@ -835,8 +835,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.115 = aputv %tmp.114 6 %tmp.113;
         lputv %dayNames.7 %tmp.115;
         symbol [ dayNames %dayNames.7 129 12 20 ];
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 130 8 ]
-        [ "_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_start" "_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_stop" ]
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 130 8 ]
+        [ "_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_start" "_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_stop" ]
         %dayLabel.8 = local;
         symbol [ dayLabel %dayLabel.8 130 12 20 ];
         symbol [ View %tmp.117 130 23 27 ];
@@ -849,8 +849,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         symbol [ Text %tmp.121 130 60 64 ];
         lputv %dayLabel.8 %tmp.121;
         symbol [ dayLabel %dayLabel.8 130 12 20 ];
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 131 8 ]
-        [ "_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_start" "_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_stop" ]
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 131 8 ]
+        [ "_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_start" "_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_stop" ]
         %conditions.9 = local;
         symbol [ conditions %conditions.9 131 12 22 ];
         symbol [ Weather %tmp.122 131 25 32 ];
@@ -860,18 +860,18 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.124 = invoke %tmp.122 %tmp.123();
         lputv %conditions.9 %tmp.124;
         symbol [ conditions %conditions.9 131 12 22 ];
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 132 8 ]
-        [ "_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_start" "_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_stop" ]
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 132 8 ]
+        [ "_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_start" "_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_stop" ]
         %weatherText.10 = local;
         symbol [ weatherText %weatherText.10 132 12 23 ];
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_132_26_132_123_begin:
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_132_27_132_73_begin:
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_132_26_132_123_begin:
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_132_27_132_73_begin:
         %tmp.125 = lgetv %conditions.9;
         symbol [ conditions %tmp.125 132 27 37 ];
         %tmp.126 = null;
         %tmp.127 = ne %tmp.125 %tmp.126;
-        bf %tmp.127 @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_132_26_132_123_else_false;
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_132_49_132_73_true:
+        bf %tmp.127 @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_132_26_132_123_else_false;
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_132_49_132_73_true:
         %tmp.128 = lgetv %conditions.9;
         symbol [ conditions %tmp.128 132 49 59 ];
         %tmp.129 = as %tmp.128 { (!Null) };
@@ -880,10 +880,10 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.131 = null;
         %tmp.132 = ne %tmp.130 %tmp.131;
         push %tmp.132;
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_132_49_132_73_end:
-        %tmp.133 = phi [%tmp.127 @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_132_27_132_73_begin] [%tmp.132 @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_132_49_132_73_true] [%tmp.133 @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_132_49_132_73_end];
-        bf %tmp.133 @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_132_26_132_123_else_false;
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_132_26_132_123_true:
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_132_49_132_73_end:
+        %tmp.133 = phi [%tmp.127 @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_132_27_132_73_begin] [%tmp.132 @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_132_49_132_73_true] [%tmp.133 @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_132_49_132_73_end];
+        bf %tmp.133 @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_132_26_132_123_else_false;
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_132_26_132_123_true:
         %tmp.134 = self;
         symbol [ conditionToString %tmp.135 132 81 98 ];
         %tmp.135 = getv function %tmp.134 :conditionToString;
@@ -894,15 +894,15 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.138 = getv %tmp.137 :condition;
         %tmp.139 = invoke %tmp.134 %tmp.135(%tmp.138);
         push %tmp.139;
-        goto @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_132_26_132_123_end;
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_132_26_132_123_else_false:
+        goto @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_132_26_132_123_end;
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_132_26_132_123_else_false:
         %tmp.140 = "UNKNOWN";
         push %tmp.140;
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_132_26_132_123_end:
-        %tmp.141 = phi [%tmp.133 @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_132_26_132_123_begin] [%tmp.139 @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_132_26_132_123_true] [%tmp.140 @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_132_26_132_123_else_false] [%tmp.141 @_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_132_26_132_123_end];
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_132_26_132_123_end:
+        %tmp.141 = phi [%tmp.133 @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_132_26_132_123_begin] [%tmp.139 @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_132_26_132_123_true] [%tmp.140 @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_132_26_132_123_else_false] [%tmp.141 @_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_132_26_132_123_end];
         lputv %weatherText.10 %tmp.141;
         symbol [ weatherText %weatherText.10 132 12 23 ];
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 133 8 ]
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 133 8 ]
         %tmp.142 = lgetv %dayLabel.8;
         symbol [ dayLabel %tmp.142 133 8 16 ];
         symbol [ setText %tmp.143 133 17 24 ];
@@ -944,7 +944,7 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         symbol [ weatherText %tmp.168 136 18 29 ];
         %tmp.169 = add %tmp.167 %tmp.168;
         invoke %tmp.142 %tmp.143(%tmp.169);
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 138 8 ]
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 138 8 ]
         %tmp.170 = lgetv %dayLabel.8;
         symbol [ dayLabel %tmp.170 138 8 16 ];
         symbol [ draw %tmp.171 138 17 21 ];
@@ -952,8 +952,8 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.172 = lgetv %dc;
         symbol [ dc %tmp.172 138 22 24 ];
         invoke %tmp.170 %tmp.171(%tmp.172);
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 141 8 ]
-        [ "_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_start" "_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_stop" ]
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 141 8 ]
+        [ "_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_start" "_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_stop" ]
         %quoteLabel.11 = local;
         symbol [ quoteLabel %quoteLabel.11 141 12 22 ];
         symbol [ View %tmp.174 141 25 29 ];
@@ -966,7 +966,7 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         symbol [ Text %tmp.178 141 64 68 ];
         lputv %quoteLabel.11 %tmp.178;
         symbol [ quoteLabel %quoteLabel.11 141 12 22 ];
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 142 8 ]
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 142 8 ]
         %tmp.179 = lgetv %quoteLabel.11;
         symbol [ quoteLabel %tmp.179 142 8 18 ];
         symbol [ setText %tmp.180 142 19 26 ];
@@ -974,7 +974,7 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         symbol [ currentQuote %tmp.182 142 27 39 ];
         %tmp.182 = getv ? :currentQuote;
         invoke %tmp.179 %tmp.180(%tmp.182);
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 143 8 ]
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 143 8 ]
         %tmp.183 = lgetv %quoteLabel.11;
         symbol [ quoteLabel %tmp.183 143 8 18 ];
         symbol [ draw %tmp.184 143 19 23 ];
@@ -982,25 +982,25 @@ _Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source
         %tmp.185 = lgetv %dc;
         symbol [ dc %tmp.185 143 24 26 ];
         invoke %tmp.183 %tmp.184(%tmp.185);
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_stop:
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_101_40_144_4_stop:
     }
-    [ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc"; @line = 149; @symbol_functiondef = [onHide,149,13,19]; ]
+    [ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc"; @line = 149; @symbol_functiondef = [onHide,149,13,19]; ]
     function onHide() as Void {
     }
-    [ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc"; @line = 153; @symbol_functiondef = [onExitSleep,153,13,24]; ]
+    [ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc"; @line = 153; @symbol_functiondef = [onExitSleep,153,13,24]; ]
     function onExitSleep() as Void {
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_153_35_155_4_start:
-[ "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" 154 8 ]
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_153_35_155_4_start:
+[ "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc" 154 8 ]
         %tmp.1 = self;
         symbol [ pickRandomQuote %tmp.2 154 8 23 ];
         %tmp.2 = getv function %tmp.1 :pickRandomQuote;
         invoke %tmp.1 %tmp.2();
-_Users_majgajsek_Documents_Code_invincible_watchface_invincilbe_watchface_source_invincilbe_watchfaceView_mc_153_35_155_4_stop:
+_Users_majgajsek_Documents_Code_invincible_watchface_Invincilbe_watchface_source_invincilbe_watchfaceView_mc_153_35_155_4_stop:
     }
-    [ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc"; @line = 158; @symbol_functiondef = [onEnterSleep,158,13,25]; ]
+    [ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc"; @line = 158; @symbol_functiondef = [onEnterSleep,158,13,25]; ]
     function onEnterSleep() as Void {
     }
 }
-[ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc"; @line = 1; ]
+[ @file = "/Users/majgajsek/Documents/Code/invincible-watchface/Invincilbe watchface/source/invincilbe-watchfaceView.mc"; @line = 1; ]
 <init> {
 }
