@@ -1,0 +1,15 @@
+info face="ShadowOfXizor" size=216 bold=0 italic=0 charset="" unicode=1 stretchH=100 smooth=1 aa=1 padding=2,2,2,2 spacing=1,1 outline=0
+common lineHeight=200 base=200 scaleW=807 scaleH=204 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="shaxizor_0.png"
+chars count=11
+char id=48   x=2   y=2     width=71    height=200     xoffset=0     yoffset=0    xadvance=71    page=0  chnl=15
+char id=49   x=77   y=2     width=41    height=200     xoffset=0     yoffset=0    xadvance=41    page=0  chnl=15
+char id=50   x=122   y=2     width=72    height=200     xoffset=0     yoffset=0    xadvance=72    page=0  chnl=15
+char id=51   x=198   y=2     width=71    height=200     xoffset=0     yoffset=0    xadvance=71    page=0  chnl=15
+char id=52   x=273   y=2     width=72    height=200     xoffset=0     yoffset=0    xadvance=72    page=0  chnl=15
+char id=53   x=348   y=2     width=71    height=200     xoffset=0     yoffset=0    xadvance=71    page=0  chnl=15
+char id=54   x=424   y=2     width=71    height=200     xoffset=0     yoffset=0    xadvance=71    page=0  chnl=15
+char id=55   x=499   y=2     width=72    height=200     xoffset=0     yoffset=0    xadvance=72    page=0  chnl=15
+char id=56   x=574   y=2     width=81    height=200     xoffset=0     yoffset=0    xadvance=81    page=0  chnl=15
+char id=57   x=659   y=2     width=71    height=200     xoffset=0     yoffset=0    xadvance=71    page=0  chnl=15
+char id=58   x=734   y=2     width=66    height=103     xoffset=0     yoffset=48    xadvance=45    page=0  chnl=15

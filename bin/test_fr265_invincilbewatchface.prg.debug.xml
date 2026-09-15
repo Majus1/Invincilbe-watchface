@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceApp.mc" id="1" lineNum="26" parent="globals" pc="268435460" symbol="getApp"/>
+        <entry filename="/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceApp.mc" id="1" lineNum="27" parent="globals" pc="268435470" symbol="getApp"/>
+        <entry filename="/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/bin/gen/006-B4257-00/source/Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435481" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" id="3" lineNum="6" parent="globals/invincilbe_watchfaceView" pc="268435501" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceApp.mc" id="4" lineNum="5" parent="globals/invincilbe_watchfaceApp" pc="268435513" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" id="7" lineNum="15" parent="globals/invincilbe_watchfaceView" pc="268435525" symbol="onLayout"/>
+        <entry filename="/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" id="7" lineNum="16" parent="globals/invincilbe_watchfaceView" pc="268435528" symbol="onLayout"/>
+        <entry filename="/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" id="7" lineNum="17" parent="globals/invincilbe_watchfaceView" pc="268435561" symbol="onLayout"/>
+        <entry filename="/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" id="7" lineNum="18" parent="globals/invincilbe_watchfaceView" pc="268435585" symbol="onLayout"/>
+        <entry filename="/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" id="7" lineNum="19" parent="globals/invincilbe_watchfaceView" pc="268435626" symbol="onLayout"/>
+        <entry filename="/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" id="9" lineNum="10" parent="globals/invincilbe_watchfaceView" pc="268435665" symbol="initialize"/>
+        <entry filename="/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" id="9" lineNum="11" parent="globals/invincilbe_watchfaceView" pc="268435667" symbol="initialize"/>
+        <entry filename="/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" id="11" lineNum="29" parent="globals/invincilbe_watchfaceView" pc="268435680" symbol="onUpdate"/>
+        <entry filename="/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" id="11" lineNum="30" parent="globals/invincilbe_watchfaceView" pc="268435683" symbol="onUpdate"/>
+        <entry filename="/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" id="11" lineNum="31" parent="globals/invincilbe_watchfaceView" pc="268435696" symbol="onUpdate"/>
+        <entry filename="/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" id="11" lineNum="32" parent="globals/invincilbe_watchfaceView" pc="268435704" symbol="onUpdate"/>
+        <entry filename="/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" id="11" lineNum="35" parent="globals/invincilbe_watchfaceView" pc="268435721" symbol="onUpdate"/>
+        <entry filename="/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" id="11" lineNum="36" parent="globals/invincilbe_watchfaceView" pc="268435733" symbol="onUpdate"/>
+        <entry filename="/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" id="11" lineNum="37" parent="globals/invincilbe_watchfaceView" pc="268435800" symbol="onUpdate"/>
+        <entry filename="/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" id="11" lineNum="38" parent="globals/invincilbe_watchfaceView" pc="268435824" symbol="onUpdate"/>
+        <entry filename="/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceView.mc" id="11" lineNum="41" parent="globals/invincilbe_watchfaceView" pc="268435836" symbol="onUpdate"/>
+        <entry filename="/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceApp.mc" id="12" lineNum="12" parent="globals/invincilbe_watchfaceApp" pc="268435857" symbol="onStart"/>
+        <entry filename="/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceApp.mc" id="13" lineNum="20" parent="globals/invincilbe_watchfaceApp" pc="268435860" symbol="getInitialView"/>
+        <entry filename="/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceApp.mc" id="13" lineNum="21" parent="globals/invincilbe_watchfaceApp" pc="268435862" symbol="getInitialView"/>
+        <entry filename="/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceApp.mc" id="14" lineNum="7" parent="globals/invincilbe_watchfaceApp" pc="268435888" symbol="initialize"/>
+        <entry filename="/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceApp.mc" id="14" lineNum="8" parent="globals/invincilbe_watchfaceApp" pc="268435890" symbol="initialize"/>
+        <entry filename="/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/source/invincilbe-watchfaceApp.mc" id="15" lineNum="16" parent="globals/invincilbe_watchfaceApp" pc="268435903" symbol="onStop"/>
+        <entry filename="/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/bin/gen/006-B4257-00/source/Rez.mcgen" id="16" lineNum="18" parent="globals/Rez/Layouts" pc="268435906" symbol="WatchFace"/>
+        <entry filename="/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/bin/gen/006-B4257-00/source/Rez.mcgen" id="16" lineNum="19" parent="globals/Rez/Layouts" pc="268435917" symbol="WatchFace"/>
+        <entry filename="/Users/majgajsek/Documents/Code/invincible-watchface/invincilbe-watchface/bin/gen/006-B4257-00/source/Rez.mcgen" id="16" lineNum="21" parent="globals/Rez/Layouts" pc="268436033" symbol="WatchFace"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry field="true" id="11" symbol="ShaxizorFont"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="12" symbol="AppName"/>
+        <entry id="6" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="5" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry id="7" object="true" symbol="invincilbe_watchfaceApp"/>
+        <entry field="true" id="8389892" symbol="background"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="8" object="true" symbol="invincilbe_watchfaceView"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="10" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry field="true" id="8390146" module="true" symbol="Background"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry field="true" id="8389347" symbol="color"/>
+        <entry id="9" module="true" symbol="Layouts"/>
+        <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435664" name="dc" stackId="1" startPc="268435525"/>
+        <entry endPc="268435663" name="timeLabel" stackId="2" startPc="268435528"/>
+        <entry arg="true" endPc="268435856" name="dc" stackId="1" startPc="268435680"/>
+        <entry endPc="268435855" name="clockTime" stackId="2" startPc="268435683"/>
+        <entry endPc="268435855" name="timeString" stackId="3" startPc="268435683"/>
+        <entry endPc="268435855" name="view" stackId="4" startPc="268435683"/>
+        <entry arg="true" endPc="268436042" name="dc" stackId="1" startPc="268435906"/>
+        <entry endPc="268436042" name="rez_cmp_local_text_TimeLabel" stackId="2" startPc="268435917"/>
+    </localVars>
+    <deviceInfo deviceVersion="3d0fb192a2cf01699aefd0f384af3f527e5885bd" partNumber="006-B4257-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="ShaxizorFont"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="Background"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="67" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/Rez" offset="134" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/invincilbe_watchfaceView" offset="196" parentId="globals" symbolId="invincilbe_watchfaceView" type="class"/>
+        <dataEntry label="globals/invincilbe_watchfaceApp" offset="303" parentId="globals" symbolId="invincilbe_watchfaceApp" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="374" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="418" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="453" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="488" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435480" name="getApp" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435500" name="&lt;init&gt;" parent="Rez" startPc="268435481">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435512" name="&lt;init&gt;" parent="invincilbe_watchfaceView" startPc="268435501">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435524" name="&lt;init&gt;" parent="invincilbe_watchfaceApp" startPc="268435513">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onExitSleep" parent="invincilbe_watchfaceView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="invincilbe_watchfaceView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435664" name="onLayout" parent="invincilbe_watchfaceView" startPc="268435525">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onEnterSleep" parent="invincilbe_watchfaceView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435679" name="initialize" parent="invincilbe_watchfaceView" startPc="268435665">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="invincilbe_watchfaceView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435856" name="onUpdate" parent="invincilbe_watchfaceView" startPc="268435680">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435859" name="onStart" parent="invincilbe_watchfaceApp" startPc="268435857">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435887" name="getInitialView" parent="invincilbe_watchfaceApp" startPc="268435860">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435902" name="initialize" parent="invincilbe_watchfaceApp" startPc="268435888">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435905" name="onStop" parent="invincilbe_watchfaceApp" startPc="268435903">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436042" name="WatchFace" parent="Layouts" startPc="268435906">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

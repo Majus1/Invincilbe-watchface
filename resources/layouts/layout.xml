@@ -1,0 +1,6 @@
+<layout id="WatchFace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <label id="TimeLabel" x="center" y="212" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER" color="0xFFF00D" />
+    <label id="BatteryLabel" x="center" y="64" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER" color="0xFFF00D" />
+    <label id="DayLabel" x="center" y="85" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER" color="0xFFF00D" />
+    <label id="QuoteLabel" x="center" y="345" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER" color="0xFFF00D" />
+</layout>
